@@ -26,7 +26,7 @@ Given a WSI, run any nuclei detection or segmentation algorithm, such as [HoVer-
 python process_json.py --json PATH_TO_JSON_FILE
 ```
 
-Then one can extract embedding vector for each segmented nucleus using pretrained Nuc2Vec model [provided] (https://drive.google.com/drive/folders/1wuIipqur1emCmuZQxgr1LnmPrQUh3gbV?usp=sharing) as follows:
+Then one can extract embedding vector for each segmented nucleus using pretrained Nuc2Vec model [provided](https://drive.google.com/drive/folders/1wuIipqur1emCmuZQxgr1LnmPrQUh3gbV?usp=sharing) as follows:
 ```
 python extract_features.py -a resnet34 --save-folder PATH_TO_SAVE_FOLDER --input-mode wsi --gpus 0 --pretrained PATH_TO_PRETRAINED_MODEL --mlp --img PATH_TO_WSI_FOLDER PATH_TO_CSV_FILE
 ```
