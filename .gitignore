@@ -1,0 +1,26 @@
+# Copyright (c) 2020 Tongzhou Wang
+__pycache__
+*.pth
+*.png
+*/**/__pycache__
+*/*.pyc
+*/**/*.pyc
+*/**/**/*.pyc
+*/**/**/**/*.pyc
+*/**/**/**/**/*.pyc
+.mypy_cache
+
+# IPython notebook checkpoints
+.ipynb_checkpoints
+
+# Editor temporaries
+*.swn
+*.swo
+*.swp
+*~
+
+# macOS dir files
+.DS_Store
+
+.gdb_history
+
