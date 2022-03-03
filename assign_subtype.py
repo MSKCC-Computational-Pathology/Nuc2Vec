@@ -47,6 +47,6 @@ for i in indices:
     cluster_assignment = stats.mode(ass, axis=None)[0][0]
     assignments.append(cluster_assignment)
 data['subtype'] = assignments
-data['slide_id'] = args.query.split("/")[-1].split(".")[0])+'.svs'
+data['slide_id'] = args.query.split("/")[-1].split(".")[0]+'.svs'
 data.to_csv(os.path.join(args.root, args.query.split("/")[-1].split(".")[0])+'.csv', index=False)
 
